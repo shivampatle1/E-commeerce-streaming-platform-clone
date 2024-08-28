@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patle Fitness Club</title>
+</head>
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+
+    body {
+        color: white;
+        margin: 0%;
+        padding: 0%;
+        background: url('img/bg3.jpg');
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 18px
+    }
+
+    .left img {
+        width: 80px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 18px auto;
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 18px;
+        display: inline-block;
+        /* border: 2px solid blue; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: white;
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 8px 5px;
+        background-color: black;
+        color: white;
+        padding: 3px 4px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        border: solid white;
+        margin: 75px 230px;
+        padding: 25px 43px;
+        border-radius: 16px;
+    }
+
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 360px;
+        padding:12px 19px;
+        border:2px solid black;
+        border-radius: 20px;
+        margin: 9px 24px;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button {
+    display: block;
+    width: 132px;
+    margin: 8px 170px;
+}
+.btn {
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- Left box for logo -->
+
+        <div class="left">
+            <img src="img/logo5.png" alt="">
+            <div>Patle Fitness Club</div>
+        </div>
+
+        <!-- mid box for nabar -->
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculater</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+
+        <div class="right">
+
+            <buttun class="btn">Call Us Now</buttun>
+            <!-- <buttun class="btn">E-mail Us</buttun> -->
+
+        </div>
+
+
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join the best GYM of Balaghat</h1>
+        <form action="noaction.php">
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Address">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Contact No">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

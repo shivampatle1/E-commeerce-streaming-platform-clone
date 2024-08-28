@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    
+}
+
+body{
+    background-color:white;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+   /* background-color: rgb(64, 64, 85); */
+
+}
+
+.navcontainer {
+    min-height: 80px;
+    width: 100vw;
+    /* background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+background-color: #cb202d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+nav {
+    width: 100%;
+}
+
+#navlist {
+    width: 100%;
+    list-style: none;
+    font-size: 2.5rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#navlogo {
+    font-size: 2rem;
+    font-weight: 900;
+    
+}
+
+#navlogo{
+    box-shadow: 5px 5px 0px #000;
+}
+
+#list {
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    transition: all ease-in 0.2s;
+    }
+
+    a:hover{
+        color: #000;
+    }
+
+
+.hero{
+    width: 100%;
+    height: 400px;
+    background-image: url(katherine-chase-4MMK78S7eyk-unsplash.jpg);
+    background-size: cover;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.content-box{
+/* background-color: black; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+ .box1{
+    height: 430px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin: 15px;
+    background-color:#cb202d;
+    color: black;
+ }
+
+ 
+
+ .heading{
+    text-align: center;
+    transition: all ease-in 0.2s;
+ }
+
+ .heading:hover{
+    color: #000;
+ }
+
+ .photo{
+    height: 300px;
+    width: 350px;
+    overflow: hidden;
+ }
+
+ .box1 img{
+    background-size: cover;
+    height: 300px;
+    width: 350px;
+    /* padding-left: 6px; */
+    transition: all ease 0.5s;
+ }
+
+ .photo img:hover{
+    scale: 1.2;
+ }
+
+ .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ button{
+    margin-top: 20px;
+    /* background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+    /* background-color: rgb(255, 255, 0); */
+    background-color:#B76E79;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    text-align: center;
+    transition: all ease-in 0.3s;
+    
+ }
+
+ button:hover{
+    box-shadow: 5px 5px 0px #000;
+ }
+
+
+
+.footer-box{
+    height: 40px;
+    width: 100%;
+    /* background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+    background-color:#cb202d;
+
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 50px;
+}
